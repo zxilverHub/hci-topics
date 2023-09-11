@@ -6,6 +6,7 @@ import TexttEntry from './components/TexttEntry'
 import DisplayDevices from './components/DisplayDevices'
 import VR from './components/VR'
 import PhysicalControls from './components/PhysicalControls'
+import Printing from './components/Printing'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <a href="#display">Display</a>
         <a href="#vr">VR</a>
         <a href="#controls">Controls</a>
+        <a href="#print">Printing</a>
       </div>
       <h1 id='parts'>Parts</h1>
       <ComputerParts />
@@ -30,6 +32,8 @@ function App() {
       <VR />
       <h2 id='controls'>Physical Controls, Sensors, and Special Devices</h2>
       <PhysicalControls />
+      <h2 id='print'>Printing</h2>
+      <Printing />
 
       <a className='up' href="#">Home</a>
     </>

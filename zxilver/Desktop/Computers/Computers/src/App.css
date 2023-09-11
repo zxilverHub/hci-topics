@@ -10,7 +10,8 @@
 #text-entry,
 #display-device,
 #vr-3d,
-#physical-controls {
+#physical-controls,
+#printing {
     width: 95%;
     margin: 0 auto;
 
